@@ -1,0 +1,7 @@
+Jasonsantamaria.com Critique 
+
+The homepage for this site instantly gives the appearance of a blog. This is not the traditional blog layout. This site makes a blog look interesting. The split of media content and textual content for each blog entry makes the content engaging. A video clip or a picture about the content draws your attention to click on that day's entry. The navigation changes upon hovering on the items. You also know the place of where you stand within the web page by the name being in a dark block color and a red bar above that menu item. This navigation is slick and seamless. 
+
+The site is styled simplistically. Four colors comprise of the color scheme which avoids eyesores. The white background makes the black text stand out. The sans-serif titles and serif text provide distinction between title and the content under that title. 
+
+The footer is a bit distracting. It seems intrusive and overcrowded. Maybe having a simple about me and contact information would suffice. The rest of the footer items make for a cluttered view and would be confusing to the user. 
