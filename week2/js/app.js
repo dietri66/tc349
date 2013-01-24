@@ -1,5 +1,5 @@
 function hello(){
-	alert("Hello, World!");
+	alert("You're Browser is " + navigator.appName);
 	
 }
 
