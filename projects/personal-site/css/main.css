@@ -1,0 +1,56 @@
+body {
+	width: 700px;
+	margin: 0 auto;
+	font-family: "Verdana", sans-serif;
+	
+}
+
+
+
+#nav li {
+	display: inline;
+	padding: 20px;
+	
+}
+
+#nav li:hover  {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: #E3CDA4;
+	
+}
+#nav ul {
+	
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: 1px solid #ccc;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: #7E827A;
+}
+
+#screenshots img {
+	width: 40%;
+	padding: 5px;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+#morris img {
+	float: left;
+	padding: 10px; 
+}
+
+#hobbies li {
+	list-style-type: none;
+}
+
+#hobbies li p {
+	padding-left: 20px; 
+}
