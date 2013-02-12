@@ -32,7 +32,7 @@ body {
 	color: #7E827A;
 }
 
-#screenshots img {
+.screenshots img {
 	width: 40%;
 	padding: 5px;
 }
