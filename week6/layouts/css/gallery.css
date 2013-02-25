@@ -1,0 +1,20 @@
+.container {
+	margin: 0 3%;
+}
+
+article {
+	width: 220px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	background: #f3f3f3;
+	opacity: .7;
+}
+
+footer {
+	clear: both;
+}
+
+body {
+	background: url(escheresque_ste.png);
+}

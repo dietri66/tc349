@@ -1,0 +1,12 @@
+.container {
+	margin: 0 auto;
+	width: 600px;
+	/*
+	Fluid
+	margin: 0 10%;
+	*/
+}
+
+header, footer {
+	background: #ccc;
+}
