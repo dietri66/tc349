@@ -1,0 +1,7 @@
+Happy Cog utilizes a unique webpage design that contains all of the contents of the site on one page. For many sites this design simply does not work, but for Happy Cog having all content on one page provides a simplistic way to get information and find more about Happy Cog. The header explains what Happy Cog is to users who have never heard of it. They provide an easy quick link that helps the user get connected with the company. Each navigation item links to spots within the page rather than a different page. The navigation is also fixed with allows the user to move about any part of the page with a simple click of the navigation button. 
+
+The site has a simplistic color scheme that has clearly defined colors for certain elements. This helps to provide distinction for different parts of the page for easier use by the user. The layouts on the various sections are never the same. The user is always engaged in looking at different styled layouts. The headings for each section are clearly defined and contain a short explanation of what is contained in that section of the page. The user does not have to read all the content in a section to learn what that section is all about. Each page section also contains some visual imagery to provide a compliment to the textual descriptions. 
+
+The site design is simple yet modern. It provides basic functionality in a site that has the capability to engage the user for a period of time on just one page. 
+
+
