@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>jquery Intro</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		var myQuote = $('#myquote');
+		myQuote.hide();
+		$('.button').click(function(){
+			myQuote.show(500);
+		});
+	});
+	</script>
+</head>
+<body>
+	<p id="myquote">
+		This is the quote that will appear when you click the button!
+	</p>
+	
+	<button type="button" class="button">click to show quote!</button>
+	
+</body>
+</html>
