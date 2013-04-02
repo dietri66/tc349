@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Bootstrap Test</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" media="screen" title="no title" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<script>
+	$('.btn').click(function(){
+		$('#myModal').modal();
+	});
+	
+    $(function () {
+       $('#myTab a:first').tab('show');
+     });
+	
+	$('#myTab a[href="#profile"]').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	
+	});
+	
+	$('#myTab a[href="#home"]').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	
+	});
+	
+	$('#myTab a[href="#messages"]').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	
+	});
+	
+	
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			
+			
+			  <div class="navbar-inner">
+			    <div class="container">
+ 
+			      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+			      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </a>
+ 
+			      <!-- Be sure to leave the brand out there if you want it shown -->
+			      <a class="brand" href="#">TC349 Bootstrap Work!</a>
+ 
+			      <!-- Everything you want hidden at 940px or less, place within here -->
+				 
+			      <div class="nav-collapse collapse">
+			        <!-- .nav, .navbar-search, .navbar-form, etc -->
+  				  <ul class="nav">
+  				        <li class="active"><a href="#home">Home</a></li>
+  				        <li><a href="#info">Info</a></li>
+  				        
+  				      </ul>
+					  <form class="navbar-search pull-right">
+					  <input type="text" class="search-query" placeholder="Search"> <i class="icon-search"></i> 
+					  </form>
+			      </div>
+ 
+			    </div>
+			  </div>
+			
+			
+		
+    	</div>	
+	  <ul class="breadcrumb">
+	    <li><a href="#">Home</a> <span class="divider">/</span></li>
+	    
+	  </ul>
+		  <div class="hero-unit" id="#home">
+		    <h1>Testing out Bootstrap!</h1>
+		    <p class="lead">This is my first look at trying out bootstrap for web development.</p>
+		    <p>
+<button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-large" id="modal">Launch modal</button>		      
+		    </p>
+		  </div>
+		  
+		  
+		  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-header">
+		      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		      <h3 id="myModalLabel">Important Info</h3>
+		    </div>
+		    <div class="modal-body">
+		      <p>Find out more of what's going on.</p>
+		    </div>
+		    <div class="modal-footer">
+		      
+		    </div>
+		  </div>
+		  
+		  
+		  
+		  
+  		<div class="alert alert-success">
+  		  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  		  <h4>Hello!</h4>
+  <p>This is a simple page alert!</p>		</div>
+  
+  		<div class="row">
+  			
+			<div class="span4">
+				<div class="accordion" id="accordion2">
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse"  data-parent="#accordion2" href="#collapseOne">
+				        Collapsible Group Item #1
+				      </a>
+				    </div>
+				    <div id="collapseOne" class="accordion-body collapse in">
+				      <div class="accordion-inner">
+				        Anim pariatur cliche...
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+				        Collapsible Group Item #2
+				      </a>
+				    </div>
+				    <div id="collapseTwo" class="accordion-body collapse">
+				      <div class="accordion-inner" >
+				        Anim pariatur cliche...
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				
+			</div>
+  			<div class="span8">
+  		<h2>This is Content</h2>
+		
+		
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#home" data-toggle="tab" >Home</a></li>
+		  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+		  <li><a href="#messages" data-toggle="tab">Messages <span class="badge">1</span></a></li>
+		  
+		
+		</ul>
+		<div class="tab-content" id="info">
+		  <div class="tab-pane active" id="home"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis sagittis eros, a fringilla elit lobortis nec. Nunc sit amet suscipit quam. Duis vestibulum, felis id lobortis rhoncus, arcu turpis tempus sem, eu pulvinar orci ante id felis. Donec ultrices massa a turpis tincidunt non faucibus urna feugiat. Maecenas dignissim sem ac mauris interdum dapibus <a href="#" data-toggle="tooltip" title="first tooltip" id="ttip">commodo</a> eros pellentesque. Donec sem purus, ultrices suscipit aliquet sit amet, volutpat at ipsum. Pellentesque gravida, urna vitae rutrum aliquet, eros enim convallis nulla, vitae consequat dui quam ac lectus. Cras lobortis porta magna at condimentum.
+
+			</p></div>
+		  <div class="tab-pane" id="profile"><blockquote>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		  <small>Someone famous <cite title="Source Title">Source Title</cite></small>
+		</blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis sagittis eros, a fringilla elit lobortis nec. Nunc sit amet suscipit quam. Duis vestibulum, felis id lobortis rhoncus, arcu turpis tempus sem, eu pulvinar orci ante id felis. Donec ultrices massa a turpis tincidunt non fa
+
+			</p></div>
+		  <div class="tab-pane" id="messages">
+			  <div class="btn-group">
+			    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+			      Action
+			      <span class="caret"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			      <!-- dropdown menu links -->
+				  <li>New Message</li>
+				  <li>Inbox</li>
+			    </ul>
+			  </div>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis sagittis eros, a fringilla elit lobortis nec. Nunc sit amet suscipit quam. Duis vestibulum, felis id lobortis rhoncus, arcu turpis tempus sem, eu pulvinar orci ante id felis.  at ipsum. Pellentesque gravida, urna vitae rutrum aliquet, eros enim convallis nulla, vitae consequat dui quam ac lectus. Cras lobortis porta magna at condimentum.
+
+			</p></div>
+		 
+		</div>
+		
+  	</div>
+  	
+		
+	
+</div>
+</div>
+</body>
+</html>
